@@ -1,0 +1,46 @@
+.button,
+.button--green,
+.button--red {
+  background: gray;
+  color: black;
+  margin: 0;
+  border: 1px;
+  padding: 30px 30px;
+  border-radius: 5px;
+}
+
+.button--red {
+  background: red;
+  color: #000000;
+}
+
+.button--green {
+  background: green;
+  color: white;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.nav__item {
+  margin: 0 15px;
+}
+.nav__item:hover {
+  color: aqua;
+}
+.nav__item--active {
+  color: red;
+}
+.nav__item--disable {
+  color: gray;
+  cursor: no-drop;
+}
+
+.nav__item__link:hover {
+  color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
